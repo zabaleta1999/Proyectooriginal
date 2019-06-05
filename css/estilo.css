@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+td{
+padding: 18px;
+}
+
+.redes{
+height 50px;
+background-color: #788EE6;
+padding 10px;
+}
+
+.redes h2{
+font-family: gabriola;
+text-align: center;
+font-weight: bold;
+}
+
+.sociales{
+text-align: center;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+.sociales li{
+display: inline-block;
+}
+
+.sociales a{
+padding: 10px;
+}
+
+
+.carousel slide img{
+width:300px;
+}
+
+body{
+background-color: #C4B8B6;
+}
+
+.footer{
+background-color: #fff;
+text-align: center;
+widtd: 100%;
+height: 10%;
+}
+
+.footer{
+padding: 10px;
+}
+
+.localizacion{
+background-color: #8C9FEC;
+text-align: center;
+widtd: 100%;
+height: 600px;
+}
+
+.contenedor{
+width: 80%;
+max-width:1000px;
+margin:0 auto;
+overflow:hidden;
+}
+
+.contenedor table img{
+width: 300px;
+}
+
+@media screen and (max-width: 800px){
+.contenedor{
+width: 100%;
+}
+
+
+.contenedor h1{
+text-align: center;
+font-family: gabriola;
+}
+
+
+.contenedor table img{
+width: 100%;
+} 
+
+}
+
+@media screen and (max-width: 800px){
+.contenedor table tr{
+display: block;
+
+}
+.contenedor table td{
+display: block;
+}
+}
